@@ -1,0 +1,50 @@
+package com.company;
+Stoplight.java;
+
+public class Stoplight {
+    String mLightColor;
+
+    public Stoplight (String lightColor) {  // constructor
+        mLightColor = lightColor;
+    }
+
+    public boolean isRed () {
+        if (mLightColor.equals("red")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public boolean isYellow () {
+        if (mLightColor.equals("red")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public boolean isGreen () {
+        if (mLightColor.equals("red")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public void setLightColor(String lightColor) {     //setter
+        mLightColor = lightColor;
+    }
+}
+
+    public class Main {
+
+        public void main(String[] args) {
+            // write your code here
+
+
+            Stoplight red = new Stoplight("red");
+
+    }
+
+}
